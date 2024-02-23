@@ -1,0 +1,21 @@
+{
+  "YnabApi": {
+    "Endpoint": "https://api.youneedabudget.com",
+    "Version": "v1",
+    "Token": "your-ynab-token",
+    "BudgetId": "your-budget-guid"
+  },
+  "Logging": {
+    "IncludeScopes": false,
+    "LogLevel": {
+      "Default": "Debug",
+      "System": "Warning",
+      "Microsoft": "None"
+    }
+  },
+  "GoogleSheets": {
+    "SheetName": "sheet-name",
+    "ApplicationName": "your-google-service-account-name-to-access-sheets",
+    "SpreadsheetId": "your-spreadsheet-id"
+  }
+}
